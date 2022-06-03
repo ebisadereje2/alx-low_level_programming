@@ -1,5 +1,4 @@
 #include <stdio.h>
-/* more headers goes there */
 
 /**
  * main - Entry point
@@ -7,12 +6,11 @@
  */
 int main(void)
 {
-char ch;
-for (ch='a' ; ch<='z';ch++)
-{
-putchar(ch);
-putchar('\n');
+char c;
+for (c='a' ; c <= 'z'; c++)
+     putchar(c);
+     putchar('\n');
 return (0);
 
-}
+
 }
