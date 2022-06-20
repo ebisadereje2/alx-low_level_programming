@@ -1,5 +1,3 @@
-31 lines (30 sloc)  368 Bytes
-
 #include "main.h"
 /**
  * _strspn - get the lenght of prefix substring
